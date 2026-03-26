@@ -1,0 +1,411 @@
+{
+    "meta": {
+        "title": "Alfa Sky — Operador Aéreo Premium en Argentina",
+        "description": "Vuelos privados, charters y soluciones aéreas premium para gobierno, empresas, servicios sanitarios y aviación ejecutiva."
+    },
+    "nav": {
+        "services": "Servicios",
+        "fleet": "Flota",
+        "process": "Proceso",
+        "contact": "Contacto",
+        "why": "Nosotros"
+    },
+    "hero": {
+        "title": "Alfa Sky",
+        "subtitle": "Exclusivity beyond all",
+        "cta": "Contactá a un especialista",
+        "micro": "Respuesta rápida por WhatsApp · Operaciones 24/7",
+        "scroll": "Descubrí más"
+    },
+    "panels": {
+        "estado": {
+            "title": "Servicios para el Estado",
+            "short": "Vigilancia, SAR y MEDEVAC con operación 24/7"
+        },
+        "empresas": {
+            "title": "Servicios para Empresas",
+            "short": "Logística aérea y traslados ejecutivos a medida"
+        },
+        "sanitarios": {
+            "title": "Servicios Sanitarios y Críticos",
+            "short": "Evacuaciones médicas y traslados sanitarios"
+        },
+        "ejecutivo": {
+            "title": "Aviación Ejecutiva",
+            "short": "Máxima eficiencia, privacidad y experiencia premium"
+        }
+    },
+    "services": {
+        "sectionLabel": "Nuestros Servicios",
+        "sectionTitle": "Soluciones Aéreas a Medida",
+        "viewDetail": "Ver detalle",
+        "backHome": "Volver al inicio",
+        "contactSpecialist": "Hablá con un especialista",
+        "capabilitiesTitle": "Capacidades clave",
+        "useCasesTitle": "Casos de uso típicos",
+        "howWeOperateTitle": "Cómo operamos",
+        "ctaStripTitle": "¿Listo para volar?",
+        "estado": {
+            "title": "Servicios para el Estado",
+            "description": "Soluciones aéreas diseñadas para organismos estatales y fuerzas de seguridad, con capacidad operativa 24/7 y coordinación integral.",
+            "bullets": [
+                "Vigilancia y patrullaje aéreo",
+                "SAR (búsqueda y rescate)",
+                "MEDEVAC en coordinación operativa",
+                "Operación 24/7 con planificación y reportes"
+            ],
+            "capabilities": [
+                "Vigilancia aérea diurna y nocturna",
+                "Búsqueda y rescate (SAR)",
+                "Evacuación médica coordinada",
+                "Patrullaje de fronteras y costas",
+                "Transporte de personal estratégico",
+                "Soporte logístico a fuerzas de seguridad"
+            ],
+            "useCases": [
+                "Control de fronteras con respuesta inmediata",
+                "Operaciones de búsqueda en zonas de difícil acceso",
+                "Traslado urgente de personal de seguridad",
+                "Soporte aéreo en emergencias y catástrofes",
+                "Misiones de vigilancia con reportes en tiempo real",
+                "Coordinación con fuerzas federales y provinciales"
+            ],
+            "howWeOperate": [
+                {
+                    "step": "Análisis operativo",
+                    "detail": "Evaluamos la misión, zona de operación y requerimientos específicos."
+                },
+                {
+                    "step": "Planificación",
+                    "detail": "Definimos aeronave, tripulación y logística con un plan detallado."
+                },
+                {
+                    "step": "Ejecución",
+                    "detail": "Operamos con los más altos estándares de seguridad y coordinación."
+                },
+                {
+                    "step": "Reporte y seguimiento",
+                    "detail": "Entregamos informes completos y feedback post-operativo."
+                }
+            ]
+        },
+        "empresas": {
+            "title": "Servicios para Empresas",
+            "description": "Operaciones aéreas a medida para el sector privado, con coordinación integral y máxima eficiencia logística.",
+            "bullets": [
+                "Logística aérea para operaciones críticas",
+                "Traslados ejecutivos y técnicos",
+                "Cobertura para eventos, giras y turismo corporativo",
+                "Soluciones a medida con coordinación integral"
+            ],
+            "capabilities": [
+                "Logística aérea just-in-time",
+                "Traslados ejecutivos puerta a puerta",
+                "Cobertura de giras corporativas",
+                "Transporte de carga sensible",
+                "Vuelos chárter para equipos de trabajo",
+                "Coordinación de eventos multidestino"
+            ],
+            "useCases": [
+                "Traslado de equipo directivo a reuniones clave",
+                "Logística de personal para proyectos remotos",
+                "Giras corporativas con agenda flexible",
+                "Transporte urgente de repuestos o insumos críticos",
+                "Viajes de incentivo para equipos de alto rendimiento",
+                "Cobertura aérea para producciones y filmaciones"
+            ],
+            "howWeOperate": [
+                {
+                    "step": "Consulta inicial",
+                    "detail": "Escuchamos tus necesidades y objetivos operativos."
+                },
+                {
+                    "step": "Propuesta a medida",
+                    "detail": "Diseñamos la solución ideal con presupuesto transparente."
+                },
+                {
+                    "step": "Coordinación total",
+                    "detail": "Gestionamos permisos, crew, catering y ground handling."
+                },
+                {
+                    "step": "Vuelo y seguimiento",
+                    "detail": "Operamos el vuelo y te damos seguimiento en cada etapa."
+                }
+            ]
+        },
+        "sanitarios": {
+            "title": "Servicios Sanitarios y Críticos",
+            "description": "Traslados sanitarios y evacuaciones médicas con aeronaves equipadas y soporte operativo dedicado.",
+            "bullets": [
+                "Traslados sanitarios en aeronaves equipadas",
+                "MEDEVAC (evacuación médica)",
+                "Cobertura sanitaria para empresas",
+                "Traslados programados",
+                "Diseños a medida"
+            ],
+            "capabilities": [
+                "Evacuación médica (MEDEVAC)",
+                "Traslados sanitarios interurbanos",
+                "Aeronaves con equipamiento médico",
+                "Coordinación con equipos de salud",
+                "Cobertura sanitaria corporativa",
+                "Logística de órganos y muestras"
+            ],
+            "useCases": [
+                "Traslado de pacientes de alta complejidad",
+                "Evacuaciones de emergencia desde zonas remotas",
+                "Cobertura sanitaria para eventos masivos",
+                "Traslados programados entre centros médicos",
+                "Repatriación sanitaria desde el interior o países limítrofes",
+                "Soporte aéreo para operativos de salud en terreno"
+            ],
+            "howWeOperate": [
+                {
+                    "step": "Activación",
+                    "detail": "Recibimos la solicitud y evaluamos la urgencia y requerimientos."
+                },
+                {
+                    "step": "Configuración médica",
+                    "detail": "Preparamos la aeronave con el equipamiento necesario."
+                },
+                {
+                    "step": "Operación coordinada",
+                    "detail": "Volamos con equipo médico a bordo si es necesario."
+                },
+                {
+                    "step": "Entrega segura",
+                    "detail": "Realizamos el handoff al equipo médico receptor."
+                }
+            ]
+        },
+        "ejecutivo": {
+            "title": "Aviación Ejecutiva",
+            "description": "Experiencia premium para ejecutivos y equipos directivos, con operaciones nacionales y regionales planificadas de inicio a fin.",
+            "bullets": [
+                "Traslado de CEOs y equipos directivos",
+                "Operaciones regionales y nacionales",
+                "Máxima eficiencia y privacidad",
+                "Planificación end-to-end",
+                "Experiencia premium con coordinación 24/7"
+            ],
+            "capabilities": [
+                "Vuelos privados puerta a puerta",
+                "Itinerarios flexibles y confidenciales",
+                "Cabinas premium con conectividad",
+                "Ground handling y transfers incluidos",
+                "Catering ejecutivo a bordo",
+                "Coordinación 24/7 dedicada"
+            ],
+            "useCases": [
+                "Reuniones de directorio en distintas ciudades el mismo día",
+                "Viajes confidenciales de alto nivel",
+                "Traslados a destinos sin vuelos comerciales directos",
+                "Jornadas de trabajo productivo a bordo",
+                "Viajes de negocios con agenda impredecible",
+                "Eventos exclusivos con traslado privado"
+            ],
+            "howWeOperate": [
+                {
+                    "step": "Requerimiento",
+                    "detail": "Nos contactás y definimos destino, horarios y preferencias."
+                },
+                {
+                    "step": "Propuesta premium",
+                    "detail": "Te presentamos opciones con aeronave, itinerario y presupuesto."
+                },
+                {
+                    "step": "Preparación",
+                    "detail": "Coordinamos cada detalle: crew, catering, transfers."
+                },
+                {
+                    "step": "Experiencia de vuelo",
+                    "detail": "Volás con la máxima comodidad y atención personalizada."
+                }
+            ]
+        }
+    },
+    "why": {
+        "sectionTitle": "¿Por qué Alfa Sky?",
+        "pillars": [
+            {
+                "title": "Experiencia Operativa",
+                "description": "Décadas de experiencia en operaciones aéreas complejas, con equipos especializados y certificaciones vigentes."
+            },
+            {
+                "title": "Flota Versátil",
+                "description": "Aeronaves seleccionadas para cada tipo de misión, mantenidas bajo los más altos estándares de la industria."
+            },
+            {
+                "title": "Coordinación 24/7",
+                "description": "Un equipo dedicado disponible las 24 horas, gestionando cada detalle para que vos te enfoques en lo importante."
+            }
+        ]
+    },
+    "process": {
+        "sectionTitle": "Cómo trabajamos",
+        "stepLabel": "Paso",
+        "steps": [
+            {
+                "number": "01",
+                "title": "Consulta",
+                "description": "Nos contactás y evaluamos tus necesidades operativas."
+            },
+            {
+                "number": "02",
+                "title": "Propuesta",
+                "description": "Diseñamos una solución a medida con presupuesto detallado."
+            },
+            {
+                "number": "03",
+                "title": "Coordinación",
+                "description": "Armamos la logística: tripulación, aeronave, permisos y soporte."
+            },
+            {
+                "number": "04",
+                "title": "Operación",
+                "description": "Ejecutamos el vuelo con los más altos estándares de seguridad."
+            }
+        ]
+    },
+    "fleet": {
+        "sectionTitle": "Nuestra Flota",
+        "sectionDescription": "Aeronaves seleccionadas para cubrir cada necesidad operativa con la máxima seguridad y eficiencia.",
+        "viewDetails": "Ver detalles",
+        "requestQuote": "Solicitar cotización",
+        "modal": {
+            "close": "Cerrar"
+        },
+        "aircraft": {
+            "atr42": {
+                "name": "ATR 42",
+                "type": "Turbohélice regional",
+                "headline": "Capacidad regional, alcance sin límites",
+                "benefits": [
+                    "Hasta 48 pasajeros con cabina amplia y confortable",
+                    "Ideal para rutas regionales y pistas cortas",
+                    "Operación eficiente y versátil en todo tipo de clima",
+                    "Configuración adaptable: pasajeros, carga o MEDEVAC"
+                ]
+            },
+            "kingair200": {
+                "name": "King Air 200",
+                "type": "Turbohélice ejecutivo",
+                "headline": "Versatilidad ejecutiva, rendimiento probado",
+                "benefits": [
+                    "Cabina presurizada para vuelos cómodos a gran altitud",
+                    "Acceso a aeropuertos con pistas reducidas",
+                    "Capacidad para hasta 9 pasajeros en configuración ejecutiva",
+                    "Ideal para traslados corporativos y misiones especiales"
+                ]
+            },
+            "learjet50": {
+                "name": "Learjet 50",
+                "type": "Jet ejecutivo ligero",
+                "headline": "Velocidad y eficiencia en cada vuelo",
+                "benefits": [
+                    "Velocidad de crucero superior para optimizar tiempos",
+                    "Cabina ejecutiva refinada para hasta 7 pasajeros",
+                    "Alcance ideal para vuelos nacionales e internacionales cercanos",
+                    "Máxima privacidad y confort a bordo"
+                ]
+            },
+            "citationv": {
+                "name": "Citation V",
+                "type": "Jet ejecutivo medio",
+                "headline": "La experiencia premium en el aire",
+                "benefits": [
+                    "Cabina stand-up con espacio generoso y terminaciones de lujo",
+                    "Alcance extendido para rutas de mayor distancia",
+                    "Silencioso y estable — ideal para trabajo a bordo",
+                    "Perfecto para CEOs y equipos directivos exigentes"
+                ]
+            }
+        }
+    },
+    "placeholder": {
+        "sectionTitle": "Próximamente",
+        "items": [
+            {
+                "title": "Turismo Aéreo",
+                "description": "Experiencias multidestino diseñadas para descubrir Argentina desde el aire."
+            },
+            {
+                "title": "Giras y Eventos",
+                "description": "Coordinación aérea integral para giras corporativas y grandes eventos."
+            },
+            {
+                "title": "Alfa Sky Academy",
+                "description": "Formación aeronáutica con estándares internacionales y experiencia práctica."
+            }
+        ],
+        "comingSoon": "Próximamente"
+    },
+    "contact": {
+        "sectionTitle": "Contacto",
+        "sectionDescription": "¿Tenés una consulta operativa o necesitás presupuestar un servicio? Nuestro equipo responde rápido.",
+        "form": {
+            "name": "Nombre",
+            "email": "Email",
+            "message": "Mensaje",
+            "submit": "Enviar consulta"
+        },
+        "whatsapp": "WhatsApp",
+        "emailLabel": "Email",
+        "emailAddress": "info@alfa-sky.com",
+        "phone": "+54 9 11 3515-1981"
+    },
+    "location": {
+        "sectionTitle": "Dónde estamos ubicados",
+        "address": "Roma 450, La Lucila, Buenos Aires",
+        "googleMaps": "Ver en Google Maps",
+        "waze": "Abrir en Waze"
+    },
+    "footer": {
+        "description": "Alfa Sky — Tu operador aéreo en Argentina. Vuelos privados, charters y soluciones aéreas para turismo y experiencias multidestino.",
+        "contact": {
+            "address": "Roma 450, Vicente López",
+            "email": "info@alfa-sky.com",
+            "phone": "+54 9 11 3515-1981"
+        },
+        "links": {
+            "services": "Servicios",
+            "fleet": "Flota",
+            "contact": "Contacto",
+            "privacy": "Privacidad"
+        },
+        "copyright": "© 2026 Alfa Sky. Todos los derechos reservados."
+    },
+    "privacy": {
+        "title": "Política de Privacidad",
+        "backLink": "Volver al inicio",
+        "intro": "En Alfa Sky, respetamos tu privacidad y nos comprometemos a proteger tus datos personales. Esta política describe cómo recopilamos, usamos y protegemos tu información.",
+        "sections": [
+            {
+                "title": "Datos que recopilamos",
+                "content": "Cuando utilizás nuestro formulario de contacto, recopilamos tu nombre, dirección de email y el contenido de tu consulta. También podemos registrar datos de navegación estándar (dirección IP, tipo de navegador, páginas visitadas) con fines analíticos."
+            },
+            {
+                "title": "Finalidad",
+                "content": "Usamos tus datos exclusivamente para responder a tus consultas, enviarte información solicitada sobre nuestros servicios y mejorar la experiencia de navegación en nuestro sitio."
+            },
+            {
+                "title": "Conservación",
+                "content": "Tus datos personales se conservan únicamente durante el tiempo necesario para cumplir con la finalidad para la que fueron recopilados, o según lo requiera la legislación aplicable."
+            },
+            {
+                "title": "Tus derechos",
+                "content": "Podés solicitar el acceso, rectificación o eliminación de tus datos personales en cualquier momento. También podés oponerte al tratamiento de tus datos o solicitar su portabilidad."
+            },
+            {
+                "title": "Contacto",
+                "content": "Para ejercer cualquiera de estos derechos o realizar consultas sobre privacidad, contactanos a info@alfa-sky.com."
+            }
+        ]
+    },
+    "cabin": {
+        "sectionTitle": "Experiencia de Cabina"
+    },
+    "loading": {
+        "text": "Preparando tu experiencia"
+    }
+}

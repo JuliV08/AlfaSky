@@ -1,0 +1,76 @@
+.glare-hover {
+    width: var(--gh-width);
+    height: var(--gh-height);
+    background: var(--gh-bg);
+    border-radius: var(--gh-br);
+    border: 1px solid var(--gh-border);
+    overflow: hidden;
+    position: relative;
+    display: block;
+    /* Modified from grid/place-items to block so it wraps children cleanly without shrinking them */
+}
+
+/* Let children fill the container properly without restricting their vertical expansion */
+.glare-hover>* {
+    width: 100%;
+}
+
+.glare-hover::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    /* Make clicks pass through to the underlying card */
+    z-index: 10;
+    /* Bring glare above the background but below interactive elements if properly z-indexed inside */
+    background: linear-gradient(var(--gh-angle),
+            hsla(0, 0%, 0%, 0) 60%,
+            var(--gh-rgba) 70%,
+            hsla(0, 0%, 0%, 0),
+            hsla(0, 0%, 0%, 0) 100%);
+    transition: var(--gh-duration) ease;
+    background-size:
+        var(--gh-size) var(--gh-size),
+        100% 100%;
+    background-repeat: no-repeat;
+    background-position:
+        -100% -100%,
+        0 0;
+}
+
+.glare-hover:hover {
+    /* cursor: pointer; */
+    /* Removed so it inherits child cursors */
+}
+
+.glare-hover:hover::before {
+    background-position:
+        100% 100%,
+        0 0;
+}
+
+/* Auto play once when entering viewport */
+@keyframes auto-glare-anim {
+    0% {
+        background-position: -100% -100%, 0 0;
+    }
+
+    100% {
+        background-position: 100% 100%, 0 0;
+    }
+}
+
+.glare-hover.glare-playing::before {
+    animation: auto-glare-anim var(--gh-duration) ease forwards;
+}
+
+.glare-hover--play-once::before {
+    transition: none;
+}
+
+.glare-hover--play-once:hover::before {
+    transition: var(--gh-duration) ease;
+    background-position:
+        100% 100%,
+        0 0;
+}

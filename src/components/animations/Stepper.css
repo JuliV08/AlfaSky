@@ -1,0 +1,177 @@
+.outer-container {
+  display: flex;
+  min-height: 100%;
+  flex: 1 1 0%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.step-circle-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 50rem; /* Increased to allow wider content/images */
+  border-radius: 2rem;
+  box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  background-color: transparent; /* Changed from dark theme default */
+}
+
+.step-indicator-row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 1.5rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .step-indicator-row {
+    padding: 2rem;
+  }
+}
+
+.step-content-default {
+  position: relative;
+  overflow: hidden;
+}
+
+.step-default {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .step-default {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.footer-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.footer-nav {
+  margin-top: 2.5rem;
+  display: flex;
+}
+
+.footer-nav.spread {
+  justify-content: space-between;
+}
+
+.footer-nav.end {
+  justify-content: flex-end;
+}
+
+.back-button {
+  transition: all 350ms;
+  border-radius: 9999px;
+  padding: 0.5rem 1.25rem;
+  color: #475569;
+  background-color: #f8fafc;
+  border: 1px solid #cbd5e1;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.back-button:hover {
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+.back-button.inactive {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.next-button {
+  transition: all 350ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: #2E7DD1; /* AlfaSky Accent Blue */
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  padding: 0.5rem 1.25rem;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.next-button:hover {
+  background-color: #1B5FA0; /* Darker blue */
+}
+
+.next-button:active {
+  background-color: #1B5FA0; /* Darker blue */
+}
+
+.step-indicator {
+  position: relative;
+  cursor: pointer;
+  outline: none;
+}
+
+.step-indicator-inner {
+  display: flex;
+  height: 2.5rem;
+  width: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  font-weight: 600;
+}
+
+.active-dot {
+  height: 0.875rem;
+  width: 0.875rem;
+  border-radius: 9999px;
+  background-color: #fff;
+}
+
+.step-number {
+  font-size: 1rem;
+}
+
+.step-connector {
+  position: relative;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  height: 0.15rem;
+  flex: 1;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  background-color: #e5e7eb; /* Light theme connector background */
+}
+
+.step-connector-inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+
+.check-icon {
+  height: 1.2rem;
+  width: 1.2rem;
+  color: #fff;
+}

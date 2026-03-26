@@ -1,0 +1,6 @@
+# AlfaSky
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://alfa-sky.com/sitemap.xml
