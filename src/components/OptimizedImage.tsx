@@ -22,21 +22,25 @@ export function OptimizedImage({
     width,
     height,
 }: OptimizedImageProps) {
+    // Prepend the Next.js basePath so assets resolve correctly when deployed
+    // under a subdirectory (e.g. GitHub Pages at /AlfaSky/).
+    const base = (process.env.NEXT_PUBLIC_BASE_PATH ?? "") + basePath;
+
     return (
         <>
             {priority && (
                 <link
                     rel="preload"
                     as="image"
-                    href={`${basePath}.webp`}
-                    imageSrcSet={`${basePath}.avif`}
+                    href={`${base}.webp`}
+                    imageSrcSet={`${base}.avif`}
                 />
             )}
             <picture>
-                <source srcSet={`${basePath}.avif`} type="image/avif" />
-                <source srcSet={`${basePath}.webp`} type="image/webp" />
+                <source srcSet={`${base}.avif`} type="image/avif" />
+                <source srcSet={`${base}.webp`} type="image/webp" />
                 <img
-                    src={`${basePath}.jpg`}
+                    src={`${base}.jpg`}
                     alt={alt}
                     className={className}
                     loading={priority ? "eager" : "lazy"}
