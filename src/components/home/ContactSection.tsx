@@ -19,12 +19,12 @@ export function ContactSection() {
         e.preventDefault();
 
         const text = [
-            `Hola Alfa Sky! 👋`,
+            `Buenas, me comunico desde el sitio web de Alfa Sky.`,
             ``,
             `*Nombre:* ${name}`,
             email ? `*Email:* ${email}` : null,
             ``,
-            `*Mensaje:*`,
+            `*Consulta:*`,
             message,
         ]
             .filter((line) => line !== null)
@@ -104,7 +104,11 @@ export function ContactSection() {
                                     <button
                                         type="submit"
                                         disabled={!name || !message}
-                                        className="btn-primary w-full justify-center disabled:opacity-50 disabled:cursor-not-allowed"
+                                        className="w-full justify-center flex items-center gap-2 font-semibold text-white px-6 py-3 rounded-xl transition-all duration-300 hover:opacity-90 hover:scale-[1.01] active:scale-[0.99] disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:scale-100"
+                                        style={{
+                                            background: "linear-gradient(135deg, #25D366 0%, #128C7E 100%)",
+                                            boxShadow: "0 4px 14px rgba(37,211,102,0.35)"
+                                        }}
                                     >
                                         {/* WhatsApp icon */}
                                         <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
