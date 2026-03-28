@@ -40,13 +40,15 @@ const sora = localFont({
     preload: true,
 });
 
+const BP = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export const metadata: Metadata = {
     title: "Alfa Sky — Operador Aéreo Premium en Argentina",
     description:
         "Vuelos privados, charters y soluciones aéreas premium para gobierno, empresas, servicios sanitarios y aviación ejecutiva.",
     icons: {
-        icon: "/assets/ui/Favicon.png",
-        apple: "/assets/ui/Logo.png",
+        icon: `${BP}/assets/ui/Favicon.png`,
+        apple: `${BP}/assets/ui/Logo.png`,
     },
     openGraph: {
         title: "Alfa Sky — Operador Aéreo Premium en Argentina",
@@ -55,7 +57,7 @@ export const metadata: Metadata = {
         type: "website",
         locale: "es_AR",
         siteName: "Alfa Sky",
-        images: [{ url: "/assets/ui/Logo.png", width: 512, height: 512 }],
+        images: [{ url: `${BP}/assets/ui/Logo.png`, width: 512, height: 512 }],
     },
 };
 
