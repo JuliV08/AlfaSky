@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { useTranslations, useLocale } from "next-intl";
-import Link from "next/link";
 import { OptimizedImage } from "@/components/OptimizedImage";
 import GlareHover from "@/components/animations/GlareHover";
 import GradientText from "@/components/animations/GradientText";
@@ -87,15 +86,15 @@ export function ServiceDetails() {
                                 </div>
 
                                 <div className="flex flex-wrap gap-4">
-                                    <Link href={`${prefix}/servicios/${service.key}/`} className="btn-primary">
+                                    <a href={`${prefix}/servicios/${service.key}/`} className="btn-primary">
                                         {t("viewDetail")}
                                         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                                         </svg>
-                                    </Link>
-                                    <Link href={`${prefix}/#contacto`} className="btn-secondary">
+                                    </a>
+                                    <a href={`${prefix}/#contacto`} className="btn-secondary">
                                         {t("contactSpecialist")}
-                                    </Link>
+                                    </a>
                                 </div>
                             </motion.div>
                         </div>
