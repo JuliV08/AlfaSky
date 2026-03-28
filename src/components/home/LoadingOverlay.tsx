@@ -206,7 +206,7 @@ export function LoadingOverlay() {
                         className="flex flex-col items-center gap-4 relative z-10"
                     >
                         <img
-                            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/assets/ui/LogoTransparent.png`}
+                            src="/assets/ui/LogoTransparent.png"
                             alt="Alfa Sky"
                             style={{ width: '100%', maxWidth: '360px', height: 'auto', objectFit: 'contain', display: 'block' }}
                         />

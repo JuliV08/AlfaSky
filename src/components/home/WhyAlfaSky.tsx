@@ -6,15 +6,13 @@ import Stepper, { Step } from "@/components/animations/Stepper";
 import GlareHover from "@/components/animations/GlareHover";
 import GradientText from "@/components/animations/GradientText";
 
-const BP = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-
 const CARD_IMAGES = [
     // Experiencia Operativa -> Pilots & Ground Crew
-    `${BP}/media/home/why-experiencia.webp`,
+    "/media/home/why-experiencia.webp",
     // Flota Versátil -> Mixed Private Jets & Medical
-    `${BP}/media/home/why-flota.webp`,
+    "/media/home/why-flota.webp",
     // Coordinación 24/7 -> Dispatch Control Room
-    `${BP}/media/home/why-coordinacion.webp`,
+    "/media/home/why-coordinacion.webp",
 ];
 
 // Signos de interrogación MUY visibles — grandes, con color sólido
