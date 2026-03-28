@@ -14,6 +14,7 @@ const nextConfig: NextConfig = {
     },
     images: {
         unoptimized: true, // Static export — images served as-is (pre-optimized by build-assets.py)
+        loaderFile: "./src/imageLoader.ts", // Prepends basePath so next/image works under /AlfaSky/ on GitHub Pages
     },
 };
 
